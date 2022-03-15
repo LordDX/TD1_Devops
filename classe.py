@@ -1,6 +1,8 @@
 class Classe:
     def __init__(self, nom):
         self.nom = nom
+        self.asset = "o"
+        self.failing = "x"
         self.armes = set()
         self.skills = set()
 
@@ -11,9 +13,17 @@ class Classe:
         self.skills.add(skill)
 
     def setAsset(self, asset):
+        if asset == self.failing:
+            raise Exception(
+                "Le point fort et le point faible doivent être différents"
+            )
         self.asset = asset
 
     def setFailing(self, fail):
+        if fail == self.asset:
+            raise Exception(
+                "Le point fort et le point faible doivent être différents"
+            )
         self.failing = fail
 
 
