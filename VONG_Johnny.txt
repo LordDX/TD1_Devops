@@ -1,0 +1,17 @@
+arme.py
+tests unitaires:
+- vérification de saisie 
+- vérification que l'item existe dans la liste d'arme 
+
+renforcement:
+- aucun caractère numérique + MAJUSCULE
+- boucle while si la saisie est incorrect
+-------------------------------------------------------------------
+consommable.py
+tests unitaires:
+- vérification de saisie
+- vérification que l'item existe dans la liste de consommable
+
+renforcement:
+- aucun caractère numérique + MAJUSCULE
+- boucle while si la saisie est incorrect
