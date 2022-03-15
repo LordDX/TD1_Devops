@@ -1,0 +1,14 @@
+Sully : 
+
+TEST UNITAIRE
+
+Vérifications des type de variables.
+Vérifications des bornes en cas de chiffre.
+Vérifications du dépassement d'un taux de point accordé.
+Vérifications d'un non null quand le cas est nécessaire.
+
+RENFORCEMENT CODE
+
+Gérer les exeptions de type.
+Gérer les typologies de choix.
+Gérer les cas saisie.
