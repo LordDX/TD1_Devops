@@ -1,6 +1,5 @@
 import unittest
 import Skill
-from unittest.mock import Mock
 
 
 class TestSkills(unittest.TestCase):
