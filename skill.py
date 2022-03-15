@@ -3,12 +3,20 @@ class Skill:
         self.nom = nom
 
     def setLvl(self, lvl):
+        try:
+            lvl = int(lvl)
+        except ValueError:
+            lvl = 0
         self.lvl = lvl
 
     def setType(self, type):
+        if type.lower() not in ['magique', 'physique']:
+            raise Exception("Type incorrect")
         self.type = type
 
     def setCategorie(self, cat):
+        if type.lower() not in ['attaque', 'soutien', 'malus']:
+            raise Exception("Catégorie incorrecte")
         self.categorie = cat
 
 
