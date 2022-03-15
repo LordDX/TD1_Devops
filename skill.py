@@ -26,7 +26,13 @@ def creerSkill():
     lvl = int(input("A quel niveau se débloque votre skill ? "))
     skill.setLvl(lvl)
     type = input('Quel type ? (Magique ou physique)')
-    skill.setType(type)
+    try:
+        skill.setType(type)
+    except Exception as err:
+        print(err)
     cat = input("Quelle catégorie ? (Attaque, soutien ou malus)")
-    skill.setCategorie(cat)
+    try:
+        skill.setCategorie(cat)
+    except Exception as err:
+        print(err)
     return skill
