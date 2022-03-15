@@ -1,0 +1,21 @@
+tenue.py
+
+Test unitaires :
+Tester si le texte saisis est correct : 
+	- pas de chiffre
+	- entrée non vide
+
+Tester si la tenue est conforme :
+	- fait parti des tenues
+	- fait elle parti de l'inventaire
+____________________________________________
+
+lieux.py
+
+Test unitaires :
+Tester si le texte saisis est correct : 
+	- entrée non vide
+	- pas de chiffre
+	 
+Tester si le lieu est conforme :
+	- fait parti des lieux
